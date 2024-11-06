@@ -1,3 +1,5 @@
+<?php
+session_start();
 include 'conexion.php';
 ?>
 <!DOCTYPE html>
@@ -28,8 +30,7 @@ include 'conexion.php';
 
         </div>
     </div>
-
-    <!-- Modal de Crear Cuenta -->
+ <!-- Modal de Crear Cuenta -->
     <div id="registerModal"  class="modal">
         <div class="modal-content">
             <span id="closeRegister" class="close">&times;</span>
@@ -38,10 +39,11 @@ include 'conexion.php';
             <input type="text" placeholder="Nombre" id="registerName" name="nombre" required>
             <input type="email" placeholder="Correo Electrónico" id="registerEmail" name="correo" required>
             <input type="password" placeholder="Contraseña" id="registerPassword" name="contrasena" required>
+
             <button id="registerSubmit">Registrarse</button>
           </form>
         </div>
-  </div>
+    </div>
 
         <!-- Información de Vuelos -->
         <div class="flight-info">
@@ -64,11 +66,11 @@ include 'conexion.php';
                 <button class="reserveBtn hidden">Reservar</button>
                 <button class="cancelBtn hidden">Cancelar Reserva</button>
             </div>
-
-            <!-- Ejemplo de vuelo 3 -->
+             <!-- Ejemplo de vuelo 3 -->
             <div class="city-info">
                 <img src="OIP.jpeg" alt="Ciudad 3">
                 <p>Ciudad: Ciudad 3</p>
+
                 <p>Hora de salida: 1:00 PM</p>
                 <p>Hora de llegada: 5:00 PM</p>
                 <button class="reserveBtn hidden">Reservar</button>
@@ -80,3 +82,5 @@ include 'conexion.php';
     <script src="script.js"></script>
 </body>
 </html>
+
+
