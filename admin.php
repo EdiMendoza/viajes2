@@ -30,7 +30,7 @@ mysqli_close($conexion);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel de Administrador - Sitio de Viajes</title>
-    <link rel="stylesheet" href="admin1.css">
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
  <header>
@@ -160,7 +160,7 @@ mysqli_close($conexion);
 
     </main>
 
-    <script src="admin1.js"></script>
+    <script src="admin.js"></script>
 </body>
 </html>
 
